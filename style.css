@@ -27,7 +27,6 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 25%;
-
 }
 
 .controls {
@@ -56,12 +55,10 @@ body {
   width: 75%;
   border-radius: 5px;
 }
-
-.btn-even:hover,
-.btn-odd:hover,
-.dice-throw:hover {
-  border-radius: 5px;
+.dice-throw:disabled {
   opacity: 0.5;
+  color: white;
+  cursor: no-drop;
 }
 .result {
   margin-top: 15px;
@@ -76,3 +73,15 @@ body {
 }
 
 /* making animation */
+.dice-spin {
+  animation: spin 4s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
