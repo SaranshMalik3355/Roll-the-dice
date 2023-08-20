@@ -17,4 +17,4 @@
 
 3. <p> We will be doing the same work with animation to rotate dice image from 0deg to 360 deg.</p>
 4. <p>We make animation through @keyframes. Keyframes take an identifier which is the name of our animation.</p>
-5. <p>While making the animation we will see that the image of dice has been changed which we don't want, to tackle this situation.We will use setTimeout function to delay the execution of<b>image.src = `images/dices${rndDice}.png</b>. So that the dice animation takes the given time </p>
+5. <p>While making the animation we will see that the image of dice has been changed which we don't want, to tackle this situation.We will use setTimeout function to delay the execution of<b> image.src = `images/dices${rndDice}.png</b>. So that the dice animation takes the given time </p>
