@@ -58,7 +58,7 @@ btnThrow.addEventListener("click", () => {
       result.innerHTML = "Haha loser ria sharma!! you cannot even select odd";
       // result.innerHTML = "You lose!! you selected odd";
     } else if (rndDice % 2 != 0 && userSelection == "even") {
-      result.innerHTML = "Haha loser ria sharma!! you cannot even select odd";
+      result.innerHTML = "Haha loser ria sharma!! you cannot even select even";
       // result.innerHTML = "You lose!! you selected even";
     }
   }, 4000);
